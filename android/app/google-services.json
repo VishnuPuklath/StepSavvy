@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "444364939056",
+    "project_id": "stepsavvy-87efd",
+    "storage_bucket": "stepsavvy-87efd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444364939056:android:6683133449e034e44532f5",
+        "android_client_info": {
+          "package_name": "com.example.stepsavvy_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcde9_WJk9Udmzl5IYOUw6LgEFvRPmcgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
