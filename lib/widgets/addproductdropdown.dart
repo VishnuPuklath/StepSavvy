@@ -6,10 +6,12 @@ class AddProductDropDown extends StatelessWidget {
     super.key,
     required this.items,
     required this.hint,
+    required this.onSelected,
   });
 
   final List<String> items;
   final String hint;
+  final Function(String?) onSelected;
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +19,9 @@ class AddProductDropDown extends StatelessWidget {
       child: Center(
         child: DropdownButtonHideUnderline(
             child: DropdownButton2<String>(
-          onChanged: (value) {},
+          onChanged: (value) {
+            onSelected(value);
+          },
           isExpanded: true,
           hint: Text(hint),
           items: items
